@@ -6,7 +6,7 @@ Chess Botinator is a chess bot built to destroy Will's chess bot. Built to integ
 
 ### Venv
 
-I like usinv venv for python so here's some setup help.
+I like using venv for python so here's some setup help.
 
 `pip install virtualenv`
 

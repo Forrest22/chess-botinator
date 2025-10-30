@@ -59,7 +59,7 @@ class UCIEngine:
                 elif cmd == "stop":
                     self.stop_event.set()
 
-                elif cmd == "quit":
+                elif cmd == "quit" or cmd == "exit":
                     return
 
                 elif cmd == "d":

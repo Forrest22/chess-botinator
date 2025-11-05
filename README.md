@@ -2,7 +2,7 @@
 
 Chess Botinator is a chess bot built to destroy Will's chess bot. Built to integrate to UCI, mainly will be using [lichess-bot](https://github.com/lichess-bot-devs/lichess-bot)
 
-## Notes to self:
+<img src="https://static.wikia.nocookie.net/phineasandferb/images/f/f2/Heinz_presents_his_Deflate-inator.jpg/revision/latest?cb=20120203220917" width="500px" alt="The future is bright for Chess Botinator">
 
 ### Using and installing venv
 

@@ -4,7 +4,7 @@ Chess Botinator is a chess bot built to destroy Will's chess bot. Built to integ
 
 <img src="https://static.wikia.nocookie.net/phineasandferb/images/f/f2/Heinz_presents_his_Deflate-inator.jpg/revision/latest?cb=20120203220917" width="500px" alt="The future is bright for Chess Botinator">
 
-### Using and installing venv
+## Using and installing venv
 
 I like using venv for python so here's some setup help.
 
@@ -16,7 +16,7 @@ To create the virutual environment
 
 usually I use `python -m venv venv`
 
-#### Windows
+### Windows
 
 In cmd.exe
 
@@ -26,17 +26,17 @@ In PowerShell
 
 `venv\Scripts\Activate.ps1`
 
-#### Linux and MacOS
+### Linux and MacOS
 
 `source myvenv/bin/activate`
 
-### Run the Most Amazing Chess Botinator
+## Run the Most Amazing Chess Botinator
 
 After making your venv, install from requirements `pip install -r requirements.txt`
 
 You can now run the engine with `python engine.py` but this will only show you the UCI interface. Doesn't feel like much does it? If you'd like to play versus the chess bot locally
 
-#### Playing versus the Chess Botinator
+### Playing versus the Chess Botinator
 
 In order to play locally or on lichess.org you will need to compile the bot locally first as an executable. The following describes how to do this:
 
@@ -44,7 +44,7 @@ In order to play locally or on lichess.org you will need to compile the bot loca
 
 2. Compile to binary as simple as: `pyinstaller --onefile engine.py`. This creates a binary executable in the folder `dist/`. This means that if you make any changes to the engine you'll need to recompile to reflect those changes. Remember this location for later.
 
-##### Playing using a local GUI
+#### Playing using a local GUI
 
 1. Install a GUI that supports UCI engines, for these purposes I will be using [BanksiaGUI](https://banksiagui.com/download/).
 Note: I am using BanksiaGUI because it supports my cross platform development needs as I develop on both Windows and Linux based operating systems.
@@ -53,7 +53,7 @@ Note: I am using BanksiaGUI because it supports my cross platform development ne
 4. Click the `+` button to bring the Add Engine menu and in the `Engine file:` field link to your executable. Example: `/path/to/chess-botinator/dist/engine` and click OK.
 5. Start a new game with the `New game` button and select chess-botinator as your opponent.
 
-##### ROADMAP: Running with lichess-bot on lichess.org
+#### ROADMAP: Running with lichess-bot on lichess.org
 
 I love lichess-bot, its a great way for me to test my engine. Here I hope to record how to run the chess-botinator using UCI. In order to install you'll need to compile this engine into a binary and run it with lichess-bot.
 

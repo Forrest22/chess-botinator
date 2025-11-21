@@ -28,7 +28,7 @@ In PowerShell
 
 ### Linux and MacOS
 
-`source myvenv/bin/activate`
+`source venv/bin/activate`
 
 ## Run the Most Amazing Chess Botinator
 
